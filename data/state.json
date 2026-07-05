@@ -1,1 +1,45 @@
-{}
+{
+  "last_scores": {
+    "16": {
+      "state": "pre",
+      "clock": "0'",
+      "period": 0,
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "home_score": 0,
+      "away_score": 0,
+      "goals": [],
+      "completed": false
+    },
+    "17": {
+      "state": "pre",
+      "clock": "0'",
+      "period": 0,
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "home_score": 0,
+      "away_score": 0,
+      "goals": [],
+      "completed": false
+    },
+    "14": {
+      "state": "pre",
+      "clock": "0'",
+      "period": 0,
+      "home_team": "Mexico",
+      "away_team": "England",
+      "home_score": 0,
+      "away_score": 0,
+      "goals": [],
+      "completed": false
+    }
+  },
+  "last_notified": {
+    "16": "2026-07-05T15:19:56.881588+00:00",
+    "17": "2026-07-05T15:19:57.644063+00:00",
+    "14": "2026-07-05T15:19:59.084982+00:00",
+    "21": "2026-07-05T15:20:00.519865+00:00",
+    "22": "2026-07-05T15:20:01.347908+00:00",
+    "18": "2026-07-05T15:20:02.684667+00:00"
+  }
+}
