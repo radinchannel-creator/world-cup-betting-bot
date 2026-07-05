@@ -94,6 +94,36 @@
       "tier": "B",
       "estimated_prob": 0.5,
       "notes": "Belgium xG 7.8 vs USA 4.9. USA overperforming (10 goals on 4.9 xG). DNB protects on draw."
+    },
+    {
+      "id": 23,
+      "description": "Switzerland DNB vs Colombia",
+      "bet_type": "dnb",
+      "selection": "Switzerland",
+      "odds": 1.80,
+      "stake": 6.00,
+      "kickoff": "2026-07-07T20:00:00Z",
+      "espn_game_id": null,
+      "home": "Switzerland",
+      "away": "Colombia",
+      "tier": "B",
+      "estimated_prob": 0.53,
+      "notes": "Switzerland defensive robots — lowest xGA in Europe qualifiers. Colombia flair but inconsistent in knockouts. DNB removes draw risk. Verify odds on Leon Bet."
+    },
+    {
+      "id": 24,
+      "description": "Morocco DNB vs France (QF)",
+      "bet_type": "dnb",
+      "selection": "Morocco",
+      "odds": 2.25,
+      "stake": 8.00,
+      "kickoff": "2026-07-09T20:00:00Z",
+      "espn_game_id": null,
+      "home": "Morocco",
+      "away": "France",
+      "tier": "A",
+      "estimated_prob": 0.48,
+      "notes": "Morocco beat France to pens in 2022 SF. Beat Canada 3-0 in R16. France scraped 1-0 vs Paraguay. Mbappe scored but France xG underperforming. Morocco DNB is max value in QF. Verify odds on Leon Bet."
     }
   ],
   "settled": [
