@@ -1,0 +1,135 @@
+{
+  "bankroll": {
+    "start": 30.00,
+    "current": 39.75
+  },
+  "active": [
+    {
+      "id": 16,
+      "description": "Brazil win vs Norway",
+      "bet_type": "ml",
+      "selection": "Brazil",
+      "odds": 1.91,
+      "stake": 5.00,
+      "kickoff": "2026-07-05T20:00:00Z",
+      "espn_game_id": "760504",
+      "home": "Norway",
+      "away": "Brazil",
+      "tier": "B",
+      "estimated_prob": 0.60,
+      "notes": "Paqueta OUT, Raphinha OUT. Brazil xG-dominant (7.0 vs 6.0) but weakened attack."
+    },
+    {
+      "id": 17,
+      "description": "Haaland anytime scorer vs Brazil",
+      "bet_type": "anytime_scorer",
+      "selection": "Haaland",
+      "odds": 2.50,
+      "stake": 4.00,
+      "kickoff": "2026-07-05T20:00:00Z",
+      "espn_game_id": "760504",
+      "home": "Norway",
+      "away": "Brazil",
+      "tier": "C",
+      "estimated_prob": 0.42,
+      "notes": "Haaland scored 5/10 Norway goals. Norway full strength. Value at 2.50."
+    },
+    {
+      "id": 14,
+      "description": "Mexico DNB vs England",
+      "bet_type": "dnb",
+      "selection": "Mexico",
+      "odds": 2.00,
+      "stake": 6.00,
+      "kickoff": "2026-07-06T02:00:00Z",
+      "espn_game_id": "760505",
+      "home": "Mexico",
+      "away": "England",
+      "tier": "B",
+      "estimated_prob": 0.50,
+      "notes": "Reece James OUT, Quansah OUT. Rice at right-back. Azteca 80k crowd. England xG-dominant but injuries + travel."
+    },
+    {
+      "id": 21,
+      "description": "Spain win vs Portugal",
+      "bet_type": "ml",
+      "selection": "Spain",
+      "odds": 1.90,
+      "stake": 6.00,
+      "kickoff": "2026-07-06T19:00:00Z",
+      "espn_game_id": null,
+      "home": "Portugal",
+      "away": "Spain",
+      "tier": "A",
+      "estimated_prob": 0.65,
+      "notes": "Spain 0.7 xGA in group — best defense in tournament. Portugal xGA 3.0 has been lucky. Reverse line movement expected toward Spain."
+    },
+    {
+      "id": 22,
+      "description": "Under 2.5 goals Spain vs Portugal",
+      "bet_type": "under_goals",
+      "selection": "Under",
+      "odds": 1.65,
+      "stake": 6.00,
+      "line": 2.5,
+      "kickoff": "2026-07-06T19:00:00Z",
+      "espn_game_id": null,
+      "home": "Portugal",
+      "away": "Spain",
+      "tier": "A",
+      "estimated_prob": 0.62,
+      "notes": "Spain conceded 0 in group. Combined xG/game ~3.1 — edge case on U2.5."
+    },
+    {
+      "id": 18,
+      "description": "USA DNB vs Belgium",
+      "bet_type": "dnb",
+      "selection": "USA",
+      "odds": 2.00,
+      "stake": 5.00,
+      "kickoff": "2026-07-07T00:00:00Z",
+      "espn_game_id": null,
+      "home": "USA",
+      "away": "Belgium",
+      "tier": "B",
+      "estimated_prob": 0.50,
+      "notes": "Belgium xG 7.8 vs USA 4.9. USA overperforming (10 goals on 4.9 xG). DNB protects on draw."
+    }
+  ],
+  "settled": [
+    {
+      "id": 19,
+      "description": "Morocco DNB vs Canada",
+      "bet_type": "dnb",
+      "selection": "Morocco",
+      "odds": 1.45,
+      "stake": 6.00,
+      "outcome": "WIN",
+      "pnl": 2.70,
+      "result": "Morocco 3-0 Canada"
+    },
+    {
+      "id": 15,
+      "description": "France O2.5 vs Paraguay",
+      "bet_type": "over_goals",
+      "selection": "Over",
+      "line": 2.5,
+      "odds": 1.45,
+      "stake": 8.00,
+      "outcome": "LOSS",
+      "pnl": -8.00,
+      "result": "France 1-0 Paraguay (only 1 goal)"
+    },
+    {
+      "id": 20,
+      "description": "Mbappe anytime scorer vs Paraguay",
+      "bet_type": "anytime_scorer",
+      "selection": "Mbappe",
+      "odds": 1.60,
+      "stake": 5.00,
+      "outcome": "WIN",
+      "pnl": 3.00,
+      "result": "Mbappe pen 1-0"
+    }
+  ]
+}
