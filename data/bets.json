@@ -100,15 +100,15 @@
       "description": "Switzerland DNB vs Colombia",
       "bet_type": "dnb",
       "selection": "Switzerland",
-      "odds": 1.80,
-      "stake": 6.00,
+      "odds": 1.8,
+      "stake": 6.0,
       "kickoff": "2026-07-07T20:00:00Z",
-      "espn_game_id": null,
+      "espn_game_id": "760508",
       "home": "Switzerland",
       "away": "Colombia",
       "tier": "B",
       "estimated_prob": 0.53,
-      "notes": "Switzerland defensive robots — lowest xGA in Europe qualifiers. Colombia flair but inconsistent in knockouts. DNB removes draw risk. Verify odds on Leon Bet."
+      "notes": "Switzerland defensive robots \u2014 lowest xGA in Europe qualifiers. Colombia flair but inconsistent in knockouts. DNB removes draw risk. Verify odds on Leon Bet."
     },
     {
       "id": 24,
@@ -116,7 +116,7 @@
       "bet_type": "dnb",
       "selection": "Morocco",
       "odds": 2.25,
-      "stake": 8.00,
+      "stake": 8.0,
       "kickoff": "2026-07-09T20:00:00Z",
       "espn_game_id": null,
       "home": "Morocco",
