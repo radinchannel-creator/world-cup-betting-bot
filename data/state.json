@@ -1,26 +1,56 @@
 {
   "last_scores": {
     "16": {
-      "state": "in",
-      "clock": "54'",
+      "state": "post",
+      "clock": "90'+11'",
       "period": 2,
       "home_team": "Brazil",
       "away_team": "Norway",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
-      "completed": false
+      "home_score": 1,
+      "away_score": 2,
+      "goals": [
+        {
+          "time": "79'",
+          "team": "",
+          "scorers": [
+            "Erling Haaland"
+          ]
+        },
+        {
+          "time": "90'",
+          "team": "",
+          "scorers": [
+            "Erling Haaland"
+          ]
+        }
+      ],
+      "completed": true
     },
     "17": {
-      "state": "in",
-      "clock": "54'",
+      "state": "post",
+      "clock": "90'+11'",
       "period": 2,
       "home_team": "Brazil",
       "away_team": "Norway",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
-      "completed": false
+      "home_score": 1,
+      "away_score": 2,
+      "goals": [
+        {
+          "time": "79'",
+          "team": "",
+          "scorers": [
+            "Erling Haaland"
+          ]
+        },
+        {
+          "time": "90'",
+          "team": "",
+          "scorers": [
+            "Erling Haaland"
+          ]
+        }
+      ],
+      "completed": true
     },
     "14": {
       "state": "pre",
@@ -37,11 +67,11 @@
   "last_notified": {
     "16": "2026-07-05T21:16:48.502864+00:00",
     "17": "2026-07-05T21:16:49.121599+00:00",
-    "14": "2026-07-05T21:16:50.264012+00:00",
-    "21": "2026-07-05T21:16:51.494376+00:00",
-    "22": "2026-07-05T21:16:52.113809+00:00",
-    "18": "2026-07-05T21:16:53.279839+00:00",
-    "23": "2026-07-05T21:16:54.327944+00:00",
-    "24": "2026-07-05T21:16:55.633939+00:00"
+    "14": "2026-07-05T22:27:19.714597+00:00",
+    "21": "2026-07-05T22:27:20.799411+00:00",
+    "22": "2026-07-05T22:27:21.422605+00:00",
+    "18": "2026-07-05T22:27:22.480735+00:00",
+    "23": "2026-07-05T22:27:23.541932+00:00",
+    "24": "2026-07-05T22:27:24.644755+00:00"
   }
 }

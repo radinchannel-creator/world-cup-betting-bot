@@ -1,39 +1,9 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 39.75
+    "current": 40.75
   },
   "active": [
-    {
-      "id": 16,
-      "description": "Brazil win vs Norway",
-      "bet_type": "ml",
-      "selection": "Brazil",
-      "odds": 1.91,
-      "stake": 5.0,
-      "kickoff": "2026-07-05T20:00:00Z",
-      "espn_game_id": "760504",
-      "home": "Norway",
-      "away": "Brazil",
-      "tier": "B",
-      "estimated_prob": 0.6,
-      "notes": "Paqueta OUT, Raphinha OUT. Brazil xG-dominant (7.0 vs 6.0) but weakened attack."
-    },
-    {
-      "id": 17,
-      "description": "Haaland anytime scorer vs Brazil",
-      "bet_type": "anytime_scorer",
-      "selection": "Haaland",
-      "odds": 2.5,
-      "stake": 4.0,
-      "kickoff": "2026-07-05T20:00:00Z",
-      "espn_game_id": "760504",
-      "home": "Norway",
-      "away": "Brazil",
-      "tier": "C",
-      "estimated_prob": 0.42,
-      "notes": "Haaland scored 5/10 Norway goals. Norway full strength. Value at 2.50."
-    },
     {
       "id": 14,
       "description": "Mexico DNB vs England",
@@ -160,6 +130,42 @@
       "outcome": "WIN",
       "pnl": 3.0,
       "result": "Mbappe pen 1-0"
+    },
+    {
+      "id": 16,
+      "description": "Brazil win vs Norway",
+      "bet_type": "ml",
+      "selection": "Brazil",
+      "odds": 1.91,
+      "stake": 5.0,
+      "kickoff": "2026-07-05T20:00:00Z",
+      "espn_game_id": "760504",
+      "home": "Norway",
+      "away": "Brazil",
+      "tier": "B",
+      "estimated_prob": 0.6,
+      "notes": "Paqueta OUT, Raphinha OUT. Brazil xG-dominant (7.0 vs 6.0) but weakened attack.",
+      "settled_at": "2026-07-05T22:27:16.577295+00:00",
+      "outcome": "LOSS",
+      "pnl": -5.0
+    },
+    {
+      "id": 17,
+      "description": "Haaland anytime scorer vs Brazil",
+      "bet_type": "anytime_scorer",
+      "selection": "Haaland",
+      "odds": 2.5,
+      "stake": 4.0,
+      "kickoff": "2026-07-05T20:00:00Z",
+      "espn_game_id": "760504",
+      "home": "Norway",
+      "away": "Brazil",
+      "tier": "C",
+      "estimated_prob": 0.42,
+      "notes": "Haaland scored 5/10 Norway goals. Norway full strength. Value at 2.50.",
+      "settled_at": "2026-07-05T22:27:18.038760+00:00",
+      "outcome": "WIN",
+      "pnl": 6.0
     }
   ]
 }
