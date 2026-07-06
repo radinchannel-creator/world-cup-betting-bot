@@ -162,6 +162,53 @@ class TelegramNotifier:
 
         self.send("\n".join(lines))
 
+    def send_injury_alert(self, bet: dict, news: list, mins_to_ko: float):
+        if mins_to_ko > 0:
+            timing = f"⏰ {int(mins_to_ko // 60)}h {int(mins_to_ko % 60)}m to KO"
+        else:
+            timing = "🔴 LIVE"
+
+        lines = [
+            f"🚨 <b>NEWS ALERT — Bet #{bet['id']}</b>",
+            f"⚽ {bet['home']} vs {bet['away']} | {timing}",
+            "",
+            "📰 <b>Breaking:</b>",
+        ]
+        for item in news[:3]:
+            src = f" ({item['source']})" if item.get("source") else ""
+            lines.append(f"• {item['title']}{src}")
+
+        lines += ["", f"💡 Check if this affects your {bet['description']} bet"]
+        self.send("\n".join(lines))
+
+    def send_opportunity_alert(self, opp: dict):
+        game = opp["game"]
+        hours = opp["hours_out"]
+        news = opp.get("news", [])
+        hints = opp.get("hints", [])
+
+        h_str = f"{hours:.0f}h" if hours >= 1 else f"{hours * 60:.0f}m"
+        lines = [
+            f"🔍 <b>BET OPPORTUNITY</b>",
+            f"⚽ <b>{game['name']}</b>",
+            f"⏰ Kicks off in {h_str}",
+            "",
+        ]
+
+        if hints:
+            lines.append("📌 <b>Signals:</b>")
+            for hint in hints:
+                lines.append(f"• {hint}")
+
+        if news:
+            lines += ["", "📰 <b>Latest news:</b>"]
+            for item in news[:2]:
+                src = f" ({item['source']})" if item.get("source") else ""
+                lines.append(f"• {item['title']}{src}")
+
+        lines += ["", "➡️ Check Leon Bet for odds — reply to me with the bet if you want it tracked"]
+        self.send("\n".join(lines))
+
     def _current_outcome_str(self, bet: dict, score: dict) -> str:
         result = calculate_result(bet, score)
         outcome = result.get("outcome", "UNKNOWN")
