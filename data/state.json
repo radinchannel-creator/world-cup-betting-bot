@@ -64,26 +64,42 @@
       "completed": false
     },
     "21": {
-      "state": "in",
-      "clock": "11'",
-      "period": 1,
+      "state": "post",
+      "clock": "90'+9'",
+      "period": 2,
       "home_team": "Portugal",
       "away_team": "Spain",
       "home_score": 0,
-      "away_score": 0,
-      "goals": [],
-      "completed": false
+      "away_score": 1,
+      "goals": [
+        {
+          "time": "90'+1'",
+          "team": "",
+          "scorers": [
+            "Mikel Merino"
+          ]
+        }
+      ],
+      "completed": true
     },
     "22": {
-      "state": "in",
-      "clock": "12'",
-      "period": 1,
+      "state": "post",
+      "clock": "90'+9'",
+      "period": 2,
       "home_team": "Portugal",
       "away_team": "Spain",
       "home_score": 0,
-      "away_score": 0,
-      "goals": [],
-      "completed": false
+      "away_score": 1,
+      "goals": [
+        {
+          "time": "90'+1'",
+          "team": "",
+          "scorers": [
+            "Mikel Merino"
+          ]
+        }
+      ],
+      "completed": true
     },
     "18": {
       "state": "pre",
@@ -110,12 +126,13 @@
   "last_news_hashes": {
     "21": "afa16221b8209aa5dc883e8b9a90a3a3",
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
-    "18": "aa71bd00ac667bb19747c4e6b9dd22f2",
+    "18": "9553a4ff45480be3457bb3682781236a",
     "23": "ebbc79ea386fb6751a4f73c9be3ce447"
   },
   "notified_opportunities": [
-    "760507",
-    "760509"
+    "760509",
+    "760510",
+    "760507"
   ],
-  "last_opportunity_scan": "2026-07-06T19:12:19.705675+00:00"
+  "last_opportunity_scan": "2026-07-06T21:03:03.859644+00:00"
 }

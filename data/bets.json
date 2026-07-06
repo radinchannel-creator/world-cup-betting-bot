@@ -1,7 +1,7 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 40.75
+    "current": 50.05
   },
   "active": [
     {
@@ -18,37 +18,6 @@
       "tier": "B",
       "estimated_prob": 0.5,
       "notes": "Reece James OUT, Quansah OUT. Rice at right-back. Azteca 80k crowd. England xG-dominant but injuries + travel."
-    },
-    {
-      "id": 21,
-      "description": "Spain win vs Portugal",
-      "bet_type": "ml",
-      "selection": "Spain",
-      "odds": 1.9,
-      "stake": 6.0,
-      "kickoff": "2026-07-06T19:00:00Z",
-      "espn_game_id": "760506",
-      "home": "Portugal",
-      "away": "Spain",
-      "tier": "A",
-      "estimated_prob": 0.65,
-      "notes": "Spain 0.7 xGA in group \u2014 best defense in tournament. Portugal xGA 3.0 has been lucky. Reverse line movement expected toward Spain."
-    },
-    {
-      "id": 22,
-      "description": "Under 2.5 goals Spain vs Portugal",
-      "bet_type": "under_goals",
-      "selection": "Under",
-      "odds": 1.65,
-      "stake": 6.0,
-      "line": 2.5,
-      "kickoff": "2026-07-06T19:00:00Z",
-      "espn_game_id": "760506",
-      "home": "Portugal",
-      "away": "Spain",
-      "tier": "A",
-      "estimated_prob": 0.62,
-      "notes": "Spain conceded 0 in group. Combined xG/game ~3.1 \u2014 edge case on U2.5."
     },
     {
       "id": 18,
@@ -166,6 +135,43 @@
       "settled_at": "2026-07-05T22:27:18.038760+00:00",
       "outcome": "WIN",
       "pnl": 6.0
+    },
+    {
+      "id": 21,
+      "description": "Spain win vs Portugal",
+      "bet_type": "ml",
+      "selection": "Spain",
+      "odds": 1.9,
+      "stake": 6.0,
+      "kickoff": "2026-07-06T19:00:00Z",
+      "espn_game_id": "760506",
+      "home": "Portugal",
+      "away": "Spain",
+      "tier": "A",
+      "estimated_prob": 0.65,
+      "notes": "Spain 0.7 xGA in group \u2014 best defense in tournament. Portugal xGA 3.0 has been lucky. Reverse line movement expected toward Spain.",
+      "settled_at": "2026-07-06T21:02:55.625523+00:00",
+      "outcome": "WIN",
+      "pnl": 5.4
+    },
+    {
+      "id": 22,
+      "description": "Under 2.5 goals Spain vs Portugal",
+      "bet_type": "under_goals",
+      "selection": "Under",
+      "odds": 1.65,
+      "stake": 6.0,
+      "line": 2.5,
+      "kickoff": "2026-07-06T19:00:00Z",
+      "espn_game_id": "760506",
+      "home": "Portugal",
+      "away": "Spain",
+      "tier": "A",
+      "estimated_prob": 0.62,
+      "notes": "Spain conceded 0 in group. Combined xG/game ~3.1 \u2014 edge case on U2.5.",
+      "settled_at": "2026-07-06T21:02:56.668203+00:00",
+      "outcome": "WIN",
+      "pnl": 3.9
     }
   ]
 }
