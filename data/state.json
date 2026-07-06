@@ -64,9 +64,9 @@
       "completed": false
     },
     "21": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "11'",
+      "period": 1,
       "home_team": "Portugal",
       "away_team": "Spain",
       "home_score": 0,
@@ -75,9 +75,9 @@
       "completed": false
     },
     "22": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "12'",
+      "period": 1,
       "home_team": "Portugal",
       "away_team": "Spain",
       "home_score": 0,
@@ -108,14 +108,14 @@
     "24": "2026-07-06T14:22:04.576283+00:00"
   },
   "last_news_hashes": {
-    "21": "a06b195df059af9069073ed6352e57c7",
-    "22": "a06b195df059af9069073ed6352e57c7",
-    "18": "adb6c937e6d4da272fece00dd9c51027",
-    "23": "63f53e976a36a32c95a10248dd524e3d"
+    "21": "afa16221b8209aa5dc883e8b9a90a3a3",
+    "22": "afa16221b8209aa5dc883e8b9a90a3a3",
+    "18": "aa71bd00ac667bb19747c4e6b9dd22f2",
+    "23": "ebbc79ea386fb6751a4f73c9be3ce447"
   },
   "notified_opportunities": [
-    "760509",
-    "760507"
+    "760507",
+    "760509"
   ],
-  "last_opportunity_scan": "2026-07-06T17:19:43.947736+00:00"
+  "last_opportunity_scan": "2026-07-06T19:12:19.705675+00:00"
 }
