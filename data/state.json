@@ -126,13 +126,13 @@
   "last_news_hashes": {
     "21": "afa16221b8209aa5dc883e8b9a90a3a3",
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
-    "18": "9553a4ff45480be3457bb3682781236a",
+    "18": "6fa9adca64612a26452d6195156e80f0",
     "23": "ebbc79ea386fb6751a4f73c9be3ce447"
   },
   "notified_opportunities": [
     "760509",
-    "760510",
-    "760507"
+    "760507",
+    "760510"
   ],
-  "last_opportunity_scan": "2026-07-06T22:24:14.882060+00:00"
+  "last_opportunity_scan": "2026-07-06T23:38:13.137879+00:00"
 }
