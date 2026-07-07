@@ -52,17 +52,6 @@
       ],
       "completed": true
     },
-    "14": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
-      "home_team": "Mexico",
-      "away_team": "England",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
-      "completed": false
-    },
     "21": {
       "state": "post",
       "clock": "90'+9'",
@@ -101,17 +90,6 @@
       ],
       "completed": true
     },
-    "18": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
-      "home_team": "United States",
-      "away_team": "Belgium",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
-      "completed": false
-    },
     "23": {
       "state": "pre",
       "clock": "0'",
@@ -127,17 +105,14 @@
   "last_notified": {
     "16": "2026-07-05T21:16:48.502864+00:00",
     "17": "2026-07-05T21:16:49.121599+00:00",
-    "14": "2026-07-06T14:21:58.689488+00:00",
     "21": "2026-07-06T14:22:00.119817+00:00",
     "22": "2026-07-06T14:22:00.822616+00:00",
-    "18": "2026-07-06T14:22:02.014288+00:00",
     "23": "2026-07-06T14:22:03.253443+00:00",
     "24": "2026-07-06T14:22:04.576283+00:00"
   },
   "last_news_hashes": {
     "21": "afa16221b8209aa5dc883e8b9a90a3a3",
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
-    "18": "ac334b8082787abe50229a640e0e8b34",
     "23": "e00f4a5313f338272a8bd782edd5981b"
   },
   "notified_opportunities": [

@@ -1,39 +1,9 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 50.05
+    "current": 39.05
   },
   "active": [
-    {
-      "id": 14,
-      "description": "Mexico DNB vs England",
-      "bet_type": "dnb",
-      "selection": "Mexico",
-      "odds": 2.0,
-      "stake": 6.0,
-      "kickoff": "2026-07-06T02:00:00Z",
-      "espn_game_id": "760505",
-      "home": "Mexico",
-      "away": "England",
-      "tier": "B",
-      "estimated_prob": 0.5,
-      "notes": "Reece James OUT, Quansah OUT. Rice at right-back. Azteca 80k crowd. England xG-dominant but injuries + travel."
-    },
-    {
-      "id": 18,
-      "description": "USA DNB vs Belgium",
-      "bet_type": "dnb",
-      "selection": "USA",
-      "odds": 2.0,
-      "stake": 5.0,
-      "kickoff": "2026-07-07T00:00:00Z",
-      "espn_game_id": "760507",
-      "home": "USA",
-      "away": "Belgium",
-      "tier": "B",
-      "estimated_prob": 0.5,
-      "notes": "Belgium xG 7.8 vs USA 4.9. USA overperforming (10 goals on 4.9 xG). DNB protects on draw."
-    },
     {
       "id": 23,
       "description": "Switzerland DNB vs Colombia",
@@ -58,14 +28,48 @@
       "stake": 8.0,
       "kickoff": "2026-07-09T20:00:00Z",
       "espn_game_id": "760510",
-      "home": "Morocco",
-      "away": "France",
+      "home": "France",
+      "away": "Morocco",
       "tier": "A",
       "estimated_prob": 0.48,
       "notes": "Morocco beat France to pens in 2022 SF. Beat Canada 3-0 in R16. France scraped 1-0 vs Paraguay. Mbappe scored but France xG underperforming. Morocco DNB is max value in QF. Verify odds on Leon Bet."
     }
   ],
   "settled": [
+    {
+      "id": 14,
+      "description": "Mexico DNB vs England",
+      "bet_type": "dnb",
+      "selection": "Mexico",
+      "odds": 2.0,
+      "stake": 6.0,
+      "kickoff": "2026-07-06T02:00:00Z",
+      "espn_game_id": "760505",
+      "home": "Mexico",
+      "away": "England",
+      "tier": "B",
+      "settled_at": "2026-07-06T03:45:00+00:00",
+      "outcome": "LOSS",
+      "pnl": -6.0,
+      "result": "Mexico 2-3 England"
+    },
+    {
+      "id": 18,
+      "description": "USA DNB vs Belgium",
+      "bet_type": "dnb",
+      "selection": "USA",
+      "odds": 2.0,
+      "stake": 5.0,
+      "kickoff": "2026-07-07T00:00:00Z",
+      "espn_game_id": "760507",
+      "home": "USA",
+      "away": "Belgium",
+      "tier": "B",
+      "settled_at": "2026-07-07T02:00:00+00:00",
+      "outcome": "LOSS",
+      "pnl": -5.0,
+      "result": "USA 1-4 Belgium"
+    },
     {
       "id": 19,
       "description": "Morocco DNB vs Canada",
