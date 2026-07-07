@@ -138,12 +138,12 @@
     "21": "afa16221b8209aa5dc883e8b9a90a3a3",
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
     "18": "ac334b8082787abe50229a640e0e8b34",
-    "23": "ebbc79ea386fb6751a4f73c9be3ce447"
+    "23": "f85c65bb7e2b7df3353c4b5a6c27bee9"
   },
   "notified_opportunities": [
-    "760509",
     "760507",
+    "760509",
     "760510"
   ],
-  "last_opportunity_scan": "2026-07-07T01:24:00.482255+00:00"
+  "last_opportunity_scan": "2026-07-07T05:38:26.393788+00:00"
 }
