@@ -33,6 +33,22 @@
       "tier": "A",
       "estimated_prob": 0.48,
       "notes": "Morocco beat France to pens in 2022 SF. Beat Canada 3-0 in R16. France scraped 1-0 vs Paraguay. Mbappe scored but France xG underperforming. Morocco DNB is max value in QF. Verify odds on Leon Bet."
+    },
+    {
+      "id": 25,
+      "description": "Under under goals vs Spain",
+      "bet_type": "under_goals",
+      "selection": "Under",
+      "odds": 1.7,
+      "stake": 6.0,
+      "kickoff": "2026-07-10T19:00Z",
+      "espn_game_id": "760511",
+      "home": "Spain",
+      "away": "Belgium",
+      "tier": "B",
+      "estimated_prob": 0.6,
+      "notes": "Auto-detected. KO in 72h. Suggested: UNDER_GOALS Under @ est. 1.7.",
+      "line": 2.5
     }
   ],
   "settled": [
