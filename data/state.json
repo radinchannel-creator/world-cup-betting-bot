@@ -91,15 +91,15 @@
       "completed": true
     },
     "23": {
-      "state": "in",
-      "clock": "105'+1'",
-      "period": 3,
+      "state": "post",
+      "clock": "120'",
+      "period": 5,
       "home_team": "Switzerland",
       "away_team": "Colombia",
       "home_score": 0,
       "away_score": 0,
       "goals": [],
-      "completed": false
+      "completed": true
     }
   },
   "last_notified": {
@@ -116,10 +116,10 @@
     "23": "aa239d18b743ab958a328b7d0a54ef10"
   },
   "notified_opportunities": [
+    "760507",
     "760509",
     "760510",
-    "760511",
-    "760507"
+    "760511"
   ],
-  "last_opportunity_scan": "2026-07-07T22:18:47.250799+00:00"
+  "last_opportunity_scan": "2026-07-07T23:26:32.592524+00:00"
 }
