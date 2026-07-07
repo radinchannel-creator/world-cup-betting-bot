@@ -113,7 +113,7 @@ def main():
                 notifier.send_injury_alert(bet, news, mins)
                 state.setdefault("last_news_hashes", {})[bet_id] = h
 
-    # ── Opportunity scanner ───────────────────────────────────────────────────
+    # ── Opportunity scanner — auto-add new bets ──────────────────────────────
     if should_scan_opportunities(state):
         existing_pairs = {
             (b["home"].lower(), b["away"].lower())
@@ -121,9 +121,17 @@ def main():
         }
         notified = set(state.get("notified_opportunities", []))
 
-        for opp in find_opportunities(existing_pairs):
+        all_ids = (
+            [b["id"] for b in bets_data["active"]]
+            + [b["id"] for b in bets_data.get("settled", [])]
+        )
+        next_id = max(all_ids, default=0) + 1
+
+        for opp in find_opportunities(existing_pairs, next_id):
             gid = opp["game"]["game_id"]
             if gid not in notified:
+                bets_data["active"].append(opp["bet"])
+                next_id += 1
                 notifier.send_opportunity_alert(opp)
                 notified.add(gid)
 

@@ -185,28 +185,32 @@ class TelegramNotifier:
         game = opp["game"]
         hours = opp["hours_out"]
         news = opp.get("news", [])
-        hints = opp.get("hints", [])
+        bet = opp["bet"]
+        suggestion = opp.get("suggestion", {})
 
         h_str = f"{hours:.0f}h" if hours >= 1 else f"{hours * 60:.0f}m"
+        tier_emoji = {"S": "🔥", "A": "💪", "B": "✅", "C": "🎯"}.get(bet.get("tier", "B"), "✅")
+        potential = round(bet["stake"] * (bet["odds"] - 1), 2)
+
         lines = [
-            f"🔍 <b>BET OPPORTUNITY</b>",
+            f"🔍 <b>NEW BET AUTO-ADDED — #{bet['id']}</b>",
+            f"",
             f"⚽ <b>{game['name']}</b>",
             f"⏰ Kicks off in {h_str}",
-            "",
+            f"",
+            f"{tier_emoji} {bet['bet_type'].upper().replace('_',' ')} — <b>{bet['selection']}</b>",
+            f"💰 ${bet['stake']} @ est. {bet['odds']} → +${potential} potential",
+            f"",
+            f"⚠️ <i>Odds are estimated — verify on Leon Bet before placing.</i>",
+            f"➡️ Place this bet now, tracking starts immediately.",
         ]
 
-        if hints:
-            lines.append("📌 <b>Signals:</b>")
-            for hint in hints:
-                lines.append(f"• {hint}")
-
         if news:
-            lines += ["", "📰 <b>Latest news:</b>"]
+            lines += ["", "📰 <b>Intel:</b>"]
             for item in news[:2]:
                 src = f" ({item['source']})" if item.get("source") else ""
                 lines.append(f"• {item['title']}{src}")
 
-        lines += ["", "➡️ Check Leon Bet for odds — reply to me with the bet if you want it tracked"]
         self.send("\n".join(lines))
 
     def _current_outcome_str(self, bet: dict, score: dict) -> str:
