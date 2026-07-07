@@ -111,6 +111,17 @@
       "away_score": 0,
       "goals": [],
       "completed": false
+    },
+    "23": {
+      "state": "pre",
+      "clock": "0'",
+      "period": 0,
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "home_score": 0,
+      "away_score": 0,
+      "goals": [],
+      "completed": false
     }
   },
   "last_notified": {
@@ -126,7 +137,7 @@
   "last_news_hashes": {
     "21": "afa16221b8209aa5dc883e8b9a90a3a3",
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
-    "18": "6fa9adca64612a26452d6195156e80f0",
+    "18": "ac334b8082787abe50229a640e0e8b34",
     "23": "ebbc79ea386fb6751a4f73c9be3ce447"
   },
   "notified_opportunities": [
@@ -134,5 +145,5 @@
     "760507",
     "760510"
   ],
-  "last_opportunity_scan": "2026-07-06T23:38:13.137879+00:00"
+  "last_opportunity_scan": "2026-07-07T01:24:00.482255+00:00"
 }
