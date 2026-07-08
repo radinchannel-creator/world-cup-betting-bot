@@ -34,6 +34,21 @@
       "estimated_prob": 0.6,
       "notes": "Auto-detected. KO in 72h. Suggested: UNDER_GOALS Under @ est. 1.7.",
       "line": 2.5
+    },
+    {
+      "id": 26,
+      "description": "England dnb vs Norway",
+      "bet_type": "dnb",
+      "selection": "England",
+      "odds": 1.6,
+      "stake": 8.0,
+      "kickoff": "2026-07-11T21:00Z",
+      "espn_game_id": "760512",
+      "home": "Norway",
+      "away": "England",
+      "tier": "A",
+      "estimated_prob": 0.65,
+      "notes": "Auto-detected. KO in 71h. Injury/suspension news found \u2014 check lineup. Suggested: DNB England @ est. 1.6."
     }
   ],
   "settled": [
