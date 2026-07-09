@@ -102,9 +102,9 @@
       "completed": true
     },
     "24": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "45'+5'",
+      "period": 1,
       "home_team": "France",
       "away_team": "Morocco",
       "home_score": 0,
@@ -125,18 +125,18 @@
     "21": "afa16221b8209aa5dc883e8b9a90a3a3",
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
     "23": "aa239d18b743ab958a328b7d0a54ef10",
-    "24": "908dd3a10cb2d764ac76ba779cdcfb13",
-    "26": "9057ba1d972bd41ed3f00181f483bd4e",
-    "25": "a79abd3e0a47c8b3b8822a806a18a09b",
+    "24": "a67f1b2a4e6a81e50de35bdf7f191bd8",
+    "26": "bab88eaafb4a406a60960a0272520e17",
+    "25": "bc633b258630621ea38b975d89990a97",
     "27": "65a8aeac2e9ee6c3e829df3638436900"
   },
   "notified_opportunities": [
-    "760513",
+    "760512",
     "760510",
-    "760509",
     "760507",
-    "760511",
-    "760512"
+    "760513",
+    "760509",
+    "760511"
   ],
-  "last_opportunity_scan": "2026-07-09T19:10:21.672902+00:00"
+  "last_opportunity_scan": "2026-07-09T20:56:41.362320+00:00"
 }
