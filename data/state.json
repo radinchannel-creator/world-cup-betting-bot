@@ -102,15 +102,30 @@
       "completed": true
     },
     "24": {
-      "state": "in",
-      "clock": "45'+5'",
-      "period": 1,
+      "state": "post",
+      "clock": "90'+6'",
+      "period": 2,
       "home_team": "France",
       "away_team": "Morocco",
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 0,
-      "goals": [],
-      "completed": false
+      "goals": [
+        {
+          "time": "60'",
+          "team": "",
+          "scorers": [
+            "Kylian Mbapp\u00e9"
+          ]
+        },
+        {
+          "time": "66'",
+          "team": "",
+          "scorers": [
+            "Ousmane Demb\u00e9l\u00e9"
+          ]
+        }
+      ],
+      "completed": true
     }
   },
   "last_notified": {
@@ -126,17 +141,17 @@
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
     "23": "aa239d18b743ab958a328b7d0a54ef10",
     "24": "a67f1b2a4e6a81e50de35bdf7f191bd8",
-    "26": "bab88eaafb4a406a60960a0272520e17",
-    "25": "bc633b258630621ea38b975d89990a97",
-    "27": "65a8aeac2e9ee6c3e829df3638436900"
+    "26": "2a635a62c1ac4c5de5f184ada92d7611",
+    "25": "313c02c5da9d40f620487c6de33037ac",
+    "27": "af587cf19de91dc91415f50a6088536e"
   },
   "notified_opportunities": [
     "760512",
-    "760510",
-    "760507",
-    "760513",
     "760509",
+    "760510",
+    "760513",
+    "760507",
     "760511"
   ],
-  "last_opportunity_scan": "2026-07-09T20:56:41.362320+00:00"
+  "last_opportunity_scan": "2026-07-09T22:37:56.261268+00:00"
 }

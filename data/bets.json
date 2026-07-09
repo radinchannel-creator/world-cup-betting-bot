@@ -1,24 +1,9 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 39.05
+    "current": 31.05
   },
   "active": [
-    {
-      "id": 24,
-      "description": "Morocco DNB vs France (QF)",
-      "bet_type": "dnb",
-      "selection": "Morocco",
-      "odds": 2.25,
-      "stake": 8.0,
-      "kickoff": "2026-07-09T20:00:00Z",
-      "espn_game_id": "760510",
-      "home": "France",
-      "away": "Morocco",
-      "tier": "A",
-      "estimated_prob": 0.48,
-      "notes": "Morocco beat France to pens in 2022 SF. Beat Canada 3-0 in R16. France scraped 1-0 vs Paraguay. Mbappe scored but France xG underperforming. Morocco DNB is max value in QF. Verify odds on Leon Bet."
-    },
     {
       "id": 25,
       "description": "U2.5 Spain vs Belgium",
@@ -225,6 +210,24 @@
       "settled_at": "2026-07-07T23:26:30.190323+00:00",
       "outcome": "VOID",
       "pnl": 0.0
+    },
+    {
+      "id": 24,
+      "description": "Morocco DNB vs France (QF)",
+      "bet_type": "dnb",
+      "selection": "Morocco",
+      "odds": 2.25,
+      "stake": 8.0,
+      "kickoff": "2026-07-09T20:00:00Z",
+      "espn_game_id": "760510",
+      "home": "France",
+      "away": "Morocco",
+      "tier": "A",
+      "estimated_prob": 0.48,
+      "notes": "Morocco beat France to pens in 2022 SF. Beat Canada 3-0 in R16. France scraped 1-0 vs Paraguay. Mbappe scored but France xG underperforming. Morocco DNB is max value in QF. Verify odds on Leon Bet.",
+      "settled_at": "2026-07-09T22:37:51.610221+00:00",
+      "outcome": "LOSS",
+      "pnl": -8.0
     }
   ]
 }
