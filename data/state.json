@@ -126,6 +126,17 @@
         }
       ],
       "completed": true
+    },
+    "25": {
+      "state": "pre",
+      "clock": "0'",
+      "period": 0,
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "home_score": 0,
+      "away_score": 0,
+      "goals": [],
+      "completed": false
     }
   },
   "last_notified": {
@@ -142,16 +153,16 @@
     "23": "aa239d18b743ab958a328b7d0a54ef10",
     "24": "a67f1b2a4e6a81e50de35bdf7f191bd8",
     "26": "2a635a62c1ac4c5de5f184ada92d7611",
-    "25": "afc3137a161dc2393daae9f9a7ff1ddc",
+    "25": "09e25f64a300cf2774fa2080a32a8952",
     "27": "af587cf19de91dc91415f50a6088536e"
   },
   "notified_opportunities": [
     "760512",
-    "760510",
     "760511",
-    "760513",
     "760507",
+    "760513",
+    "760510",
     "760509"
   ],
-  "last_opportunity_scan": "2026-07-09T23:50:07.726146+00:00"
+  "last_opportunity_scan": "2026-07-10T01:51:58.585400+00:00"
 }
