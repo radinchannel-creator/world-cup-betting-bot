@@ -128,12 +128,12 @@
       "completed": true
     },
     "25": {
-      "state": "in",
-      "clock": "45'+5'",
-      "period": 1,
+      "state": "post",
+      "clock": "90'+7'",
+      "period": 2,
       "home_team": "Spain",
       "away_team": "Belgium",
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 1,
       "goals": [
         {
@@ -149,9 +149,16 @@
           "scorers": [
             "Charles De Ketelaere"
           ]
+        },
+        {
+          "time": "88'",
+          "team": "",
+          "scorers": [
+            "Mikel Merino"
+          ]
         }
       ],
-      "completed": false
+      "completed": true
     }
   },
   "last_notified": {
@@ -172,12 +179,12 @@
     "27": "74333ea0a1cfe77499e96b673399b974"
   },
   "notified_opportunities": [
-    "760511",
     "760510",
-    "760507",
-    "760509",
+    "760511",
     "760513",
-    "760512"
+    "760512",
+    "760509",
+    "760507"
   ],
-  "last_opportunity_scan": "2026-07-10T20:07:50.971687+00:00"
+  "last_opportunity_scan": "2026-07-10T21:19:46.531378+00:00"
 }
