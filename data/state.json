@@ -128,14 +128,29 @@
       "completed": true
     },
     "25": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "45'+5'",
+      "period": 1,
       "home_team": "Spain",
       "away_team": "Belgium",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
+      "home_score": 1,
+      "away_score": 1,
+      "goals": [
+        {
+          "time": "30'",
+          "team": "",
+          "scorers": [
+            "Fabi\u00e1n Ruiz"
+          ]
+        },
+        {
+          "time": "41'",
+          "team": "",
+          "scorers": [
+            "Charles De Ketelaere"
+          ]
+        }
+      ],
       "completed": false
     }
   },
@@ -152,17 +167,17 @@
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
     "23": "aa239d18b743ab958a328b7d0a54ef10",
     "24": "a67f1b2a4e6a81e50de35bdf7f191bd8",
-    "26": "a0ddd92f2105875f5070b312c04e6e62",
-    "25": "6994b4af4135768c5fb023c41a1a141d",
+    "26": "0162c0cbbdd985f1cc3ad06e9949508d",
+    "25": "c870c1478a2e49cda7996a679646b4ba",
     "27": "74333ea0a1cfe77499e96b673399b974"
   },
   "notified_opportunities": [
     "760511",
-    "760512",
     "760510",
-    "760509",
     "760507",
-    "760513"
+    "760509",
+    "760513",
+    "760512"
   ],
-  "last_opportunity_scan": "2026-07-10T18:44:15.418285+00:00"
+  "last_opportunity_scan": "2026-07-10T20:07:50.971687+00:00"
 }
