@@ -161,9 +161,9 @@
       "completed": true
     },
     "26": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "22'",
+      "period": 1,
       "home_team": "Norway",
       "away_team": "England",
       "home_score": 0,
@@ -201,13 +201,13 @@
     "27": "a2d86369866cd1d768f90893f3151704"
   },
   "notified_opportunities": [
+    "760509",
     "760513",
     "760507",
-    "760509",
-    "760514",
     "760510",
     "760511",
-    "760512"
+    "760512",
+    "760514"
   ],
-  "last_opportunity_scan": "2026-07-11T19:31:18.719207+00:00"
+  "last_opportunity_scan": "2026-07-11T21:23:40.355977+00:00"
 }
