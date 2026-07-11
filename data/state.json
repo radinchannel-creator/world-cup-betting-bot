@@ -162,12 +162,12 @@
     },
     "26": {
       "state": "in",
-      "clock": "59'",
-      "period": 2,
+      "clock": "105'+1'",
+      "period": 3,
       "home_team": "Norway",
       "away_team": "England",
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 2,
       "goals": [
         {
           "time": "36'",
@@ -178,6 +178,13 @@
         },
         {
           "time": "45'+2'",
+          "team": "",
+          "scorers": [
+            "Jude Bellingham"
+          ]
+        },
+        {
+          "time": "93'",
           "team": "",
           "scorers": [
             "Jude Bellingham"
@@ -213,16 +220,16 @@
     "24": "a67f1b2a4e6a81e50de35bdf7f191bd8",
     "26": "3572ce4854d8c34c13cada331b812a72",
     "25": "c870c1478a2e49cda7996a679646b4ba",
-    "27": "a2d86369866cd1d768f90893f3151704"
+    "27": "c8e7c710c756d7959041bb790083c415"
   },
   "notified_opportunities": [
-    "760512",
-    "760511",
-    "760509",
-    "760514",
-    "760507",
     "760513",
-    "760510"
+    "760507",
+    "760514",
+    "760509",
+    "760510",
+    "760511",
+    "760512"
   ],
-  "last_opportunity_scan": "2026-07-11T22:21:24.092339+00:00"
+  "last_opportunity_scan": "2026-07-11T23:23:32.844839+00:00"
 }
