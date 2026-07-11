@@ -162,13 +162,28 @@
     },
     "26": {
       "state": "in",
-      "clock": "22'",
-      "period": 1,
+      "clock": "59'",
+      "period": 2,
       "home_team": "Norway",
       "away_team": "England",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
+      "home_score": 1,
+      "away_score": 1,
+      "goals": [
+        {
+          "time": "36'",
+          "team": "",
+          "scorers": [
+            "Andreas Schjelderup"
+          ]
+        },
+        {
+          "time": "45'+2'",
+          "team": "",
+          "scorers": [
+            "Jude Bellingham"
+          ]
+        }
+      ],
       "completed": false
     },
     "27": {
@@ -196,18 +211,18 @@
     "22": "afa16221b8209aa5dc883e8b9a90a3a3",
     "23": "aa239d18b743ab958a328b7d0a54ef10",
     "24": "a67f1b2a4e6a81e50de35bdf7f191bd8",
-    "26": "d1948b4d61d92f533c4682d04c2c5a4b",
+    "26": "3572ce4854d8c34c13cada331b812a72",
     "25": "c870c1478a2e49cda7996a679646b4ba",
     "27": "a2d86369866cd1d768f90893f3151704"
   },
   "notified_opportunities": [
-    "760509",
-    "760513",
-    "760507",
-    "760510",
-    "760511",
     "760512",
-    "760514"
+    "760511",
+    "760509",
+    "760514",
+    "760507",
+    "760513",
+    "760510"
   ],
-  "last_opportunity_scan": "2026-07-11T21:23:40.355977+00:00"
+  "last_opportunity_scan": "2026-07-11T22:21:24.092339+00:00"
 }
