@@ -1,39 +1,9 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 25.05
+    "current": 34.65
   },
   "active": [
-    {
-      "id": 26,
-      "description": "England dnb vs Norway",
-      "bet_type": "dnb",
-      "selection": "England",
-      "odds": 1.6,
-      "stake": 8.0,
-      "kickoff": "2026-07-11T21:00Z",
-      "espn_game_id": "760512",
-      "home": "Norway",
-      "away": "England",
-      "tier": "A",
-      "estimated_prob": 0.65,
-      "notes": "Auto-detected. KO in 71h. Injury/suspension news found \u2014 check lineup. Suggested: DNB England @ est. 1.6."
-    },
-    {
-      "id": 27,
-      "description": "Argentina dnb vs Switzerland",
-      "bet_type": "dnb",
-      "selection": "Argentina",
-      "odds": 1.6,
-      "stake": 8.0,
-      "kickoff": "2026-07-12T01:00Z",
-      "espn_game_id": "760513",
-      "home": "Argentina",
-      "away": "Switzerland",
-      "tier": "A",
-      "estimated_prob": 0.65,
-      "notes": "Auto-detected. KO in 72h. Injury/suspension news found \u2014 check lineup. Suggested: DNB Argentina @ est. 1.6."
-    },
     {
       "id": 28,
       "description": "U2.5 France vs Spain",
@@ -67,6 +37,42 @@
     }
   ],
   "settled": [
+    {
+      "id": 26,
+      "description": "England dnb vs Norway",
+      "bet_type": "dnb",
+      "selection": "England",
+      "odds": 1.6,
+      "stake": 8.0,
+      "kickoff": "2026-07-11T21:00Z",
+      "espn_game_id": "760512",
+      "home": "Norway",
+      "away": "England",
+      "tier": "A",
+      "estimated_prob": 0.65,
+      "settled_at": "2026-07-11T23:30:00+00:00",
+      "outcome": "WIN",
+      "pnl": 4.8,
+      "result": "Norway 1-2 England (AET)"
+    },
+    {
+      "id": 27,
+      "description": "Argentina dnb vs Switzerland",
+      "bet_type": "dnb",
+      "selection": "Argentina",
+      "odds": 1.6,
+      "stake": 8.0,
+      "kickoff": "2026-07-12T01:00Z",
+      "espn_game_id": "760513",
+      "home": "Argentina",
+      "away": "Switzerland",
+      "tier": "A",
+      "estimated_prob": 0.65,
+      "settled_at": "2026-07-12T03:30:00+00:00",
+      "outcome": "WIN",
+      "pnl": 4.8,
+      "result": "Argentina 3-1 Switzerland (AET)"
+    },
     {
       "id": 14,
       "description": "Mexico DNB vs England",
