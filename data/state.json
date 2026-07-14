@@ -205,13 +205,13 @@
       "completed": false
     },
     "28": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "38'",
+      "period": 1,
       "home_team": "France",
       "away_team": "Spain",
       "home_score": 0,
-      "away_score": 0,
+      "away_score": 1,
       "goals": [],
       "completed": false
     }
@@ -232,18 +232,18 @@
     "26": "3572ce4854d8c34c13cada331b812a72",
     "25": "c870c1478a2e49cda7996a679646b4ba",
     "27": "37d32bace58ac532deefbbca830000a5",
-    "28": "726cc6f9f9ce0e18a8077a25f69b60ef",
-    "29": "343f08c147ec91ba95c9d98085392fd7"
+    "28": "4315e875d377cc9b8babc2e65791fdc2",
+    "29": "6ea234d88151e3969b6b22d406dd96fa"
   },
   "notified_opportunities": [
-    "760513",
-    "760514",
-    "760512",
     "760511",
-    "760515",
-    "760507",
+    "760514",
     "760509",
-    "760510"
+    "760507",
+    "760510",
+    "760512",
+    "760513",
+    "760515"
   ],
-  "last_opportunity_scan": "2026-07-14T17:59:02.284895+00:00"
+  "last_opportunity_scan": "2026-07-14T19:39:41.418734+00:00"
 }
