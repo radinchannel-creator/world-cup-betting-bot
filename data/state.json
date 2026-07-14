@@ -203,6 +203,17 @@
       "away_score": 0,
       "goals": [],
       "completed": false
+    },
+    "28": {
+      "state": "pre",
+      "clock": "0'",
+      "period": 0,
+      "home_team": "France",
+      "away_team": "Spain",
+      "home_score": 0,
+      "away_score": 0,
+      "goals": [],
+      "completed": false
     }
   },
   "last_notified": {
@@ -225,14 +236,14 @@
     "29": "6104c4af4988de70807f1e26a4068c1e"
   },
   "notified_opportunities": [
-    "760511",
-    "760512",
-    "760510",
-    "760514",
+    "760513",
     "760509",
+    "760510",
+    "760512",
     "760507",
+    "760514",
     "760515",
-    "760513"
+    "760511"
   ],
-  "last_opportunity_scan": "2026-07-13T23:37:42.592158+00:00"
+  "last_opportunity_scan": "2026-07-14T01:03:49.255253+00:00"
 }
