@@ -205,8 +205,8 @@
       "completed": false
     },
     "28": {
-      "state": "in",
-      "clock": "82'",
+      "state": "post",
+      "clock": "90'+7'",
       "period": 2,
       "home_team": "France",
       "away_team": "Spain",
@@ -221,7 +221,7 @@
           ]
         }
       ],
-      "completed": false
+      "completed": true
     }
   },
   "last_notified": {
@@ -244,14 +244,14 @@
     "29": "6ea234d88151e3969b6b22d406dd96fa"
   },
   "notified_opportunities": [
-    "760512",
-    "760510",
-    "760514",
-    "760511",
-    "760509",
-    "760513",
     "760515",
-    "760507"
+    "760510",
+    "760511",
+    "760514",
+    "760509",
+    "760512",
+    "760507",
+    "760513"
   ],
-  "last_opportunity_scan": "2026-07-14T20:44:04.477789+00:00"
+  "last_opportunity_scan": "2026-07-14T21:41:03.594699+00:00"
 }

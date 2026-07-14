@@ -1,25 +1,9 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 34.65
+    "current": 38.55
   },
   "active": [
-    {
-      "id": 28,
-      "description": "U2.5 France vs Spain",
-      "bet_type": "under_goals",
-      "selection": "Under",
-      "odds": 1.65,
-      "stake": 6.0,
-      "kickoff": "2026-07-14T19:00Z",
-      "espn_game_id": "760514",
-      "home": "France",
-      "away": "Spain",
-      "tier": "B",
-      "estimated_prob": 0.58,
-      "notes": "Auto-detected. KO in 71h. Suggested: UNDER GOALS Under @ est. 1.65.",
-      "line": 2.5
-    },
     {
       "id": 29,
       "description": "England dnb vs Argentina",
@@ -268,6 +252,25 @@
       "settled_at": "2026-07-10T21:19:44.430680+00:00",
       "outcome": "LOSS",
       "pnl": -6.0
+    },
+    {
+      "id": 28,
+      "description": "U2.5 France vs Spain",
+      "bet_type": "under_goals",
+      "selection": "Under",
+      "odds": 1.65,
+      "stake": 6.0,
+      "kickoff": "2026-07-14T19:00Z",
+      "espn_game_id": "760514",
+      "home": "France",
+      "away": "Spain",
+      "tier": "B",
+      "estimated_prob": 0.58,
+      "notes": "Auto-detected. KO in 71h. Suggested: UNDER GOALS Under @ est. 1.65.",
+      "line": 2.5,
+      "settled_at": "2026-07-14T21:41:02.315765+00:00",
+      "outcome": "WIN",
+      "pnl": 3.9
     }
   ]
 }
