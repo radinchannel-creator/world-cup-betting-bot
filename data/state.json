@@ -224,13 +224,13 @@
       "completed": true
     },
     "29": {
-      "state": "in",
-      "clock": "90'+1'",
+      "state": "post",
+      "clock": "90'+12'",
       "period": 2,
       "home_team": "England",
       "away_team": "Argentina",
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 2,
       "goals": [
         {
           "time": "55'",
@@ -245,9 +245,16 @@
           "scorers": [
             "Enzo Fern\u00e1ndez"
           ]
+        },
+        {
+          "time": "90'+2'",
+          "team": "",
+          "scorers": [
+            "Lautaro Mart\u00ednez"
+          ]
         }
       ],
-      "completed": false
+      "completed": true
     }
   },
   "last_notified": {
@@ -270,14 +277,15 @@
     "29": "2c5ff83e6b0938af1a7a1442f012d0d2"
   },
   "notified_opportunities": [
-    "760511",
-    "760510",
-    "760513",
-    "760507",
     "760514",
+    "760511",
+    "760516",
     "760509",
     "760512",
-    "760515"
+    "760515",
+    "760510",
+    "760513",
+    "760507"
   ],
-  "last_opportunity_scan": "2026-07-15T20:52:19.941836+00:00"
+  "last_opportunity_scan": "2026-07-15T21:56:05.911934+00:00"
 }
