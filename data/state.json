@@ -224,9 +224,9 @@
       "completed": true
     },
     "29": {
-      "state": "pre",
-      "clock": "0'",
-      "period": 0,
+      "state": "in",
+      "clock": "45'+4'",
+      "period": 1,
       "home_team": "England",
       "away_team": "Argentina",
       "home_score": 0,
@@ -252,17 +252,17 @@
     "25": "c870c1478a2e49cda7996a679646b4ba",
     "27": "37d32bace58ac532deefbbca830000a5",
     "28": "4315e875d377cc9b8babc2e65791fdc2",
-    "29": "6f365457e9f4d8f729b627ebb687dcaa"
+    "29": "2c5ff83e6b0938af1a7a1442f012d0d2"
   },
   "notified_opportunities": [
     "760515",
-    "760510",
-    "760513",
-    "760509",
-    "760512",
-    "760514",
     "760511",
-    "760507"
+    "760513",
+    "760512",
+    "760509",
+    "760510",
+    "760507",
+    "760514"
   ],
-  "last_opportunity_scan": "2026-07-15T18:38:32.988529+00:00"
+  "last_opportunity_scan": "2026-07-15T19:51:20.090662+00:00"
 }
