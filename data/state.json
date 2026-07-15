@@ -225,13 +225,28 @@
     },
     "29": {
       "state": "in",
-      "clock": "45'+4'",
-      "period": 1,
+      "clock": "90'+1'",
+      "period": 2,
       "home_team": "England",
       "away_team": "Argentina",
-      "home_score": 0,
-      "away_score": 0,
-      "goals": [],
+      "home_score": 1,
+      "away_score": 1,
+      "goals": [
+        {
+          "time": "55'",
+          "team": "",
+          "scorers": [
+            "Anthony Gordon"
+          ]
+        },
+        {
+          "time": "85'",
+          "team": "",
+          "scorers": [
+            "Enzo Fern\u00e1ndez"
+          ]
+        }
+      ],
       "completed": false
     }
   },
@@ -255,14 +270,14 @@
     "29": "2c5ff83e6b0938af1a7a1442f012d0d2"
   },
   "notified_opportunities": [
-    "760515",
     "760511",
-    "760513",
-    "760512",
-    "760509",
     "760510",
+    "760513",
     "760507",
-    "760514"
+    "760514",
+    "760509",
+    "760512",
+    "760515"
   ],
-  "last_opportunity_scan": "2026-07-15T19:51:20.090662+00:00"
+  "last_opportunity_scan": "2026-07-15T20:52:19.941836+00:00"
 }
