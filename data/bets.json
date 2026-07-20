@@ -1,41 +1,9 @@
 {
   "bankroll": {
     "start": 30.0,
-    "current": 32.55
+    "current": 31.95
   },
-  "active": [
-    {
-      "id": 30,
-      "description": "U2.5 France vs England",
-      "bet_type": "under_goals",
-      "selection": "Under",
-      "odds": 1.65,
-      "stake": 6.0,
-      "kickoff": "2026-07-18T21:00Z",
-      "espn_game_id": "760516",
-      "home": "France",
-      "away": "England",
-      "tier": "B",
-      "estimated_prob": 0.58,
-      "notes": "Auto-detected. 3rd place match.",
-      "line": 2.5
-    },
-    {
-      "id": 32,
-      "description": "Spain dnb vs Argentina",
-      "bet_type": "dnb",
-      "selection": "Spain",
-      "odds": 1.9,
-      "stake": 6.0,
-      "kickoff": "2026-07-19T19:00Z",
-      "espn_game_id": "760517",
-      "home": "Spain",
-      "away": "Argentina",
-      "tier": "B",
-      "estimated_prob": 0.52,
-      "notes": "Auto-detected. KO in 71h. Injury/suspension news found \u2014 check lineup. Suggested: DNB Spain @ est. 1.9."
-    }
-  ],
+  "active": [],
   "settled": [
     {
       "id": 26,
@@ -306,5 +274,43 @@
       "outcome": "LOSS",
       "pnl": -6.0
     },
+    {
+      "id": 30,
+      "description": "U2.5 France vs England",
+      "bet_type": "under_goals",
+      "selection": "Under",
+      "odds": 1.65,
+      "stake": 6.0,
+      "kickoff": "2026-07-18T21:00Z",
+      "espn_game_id": "760516",
+      "home": "France",
+      "away": "England",
+      "tier": "B",
+      "estimated_prob": 0.58,
+      "notes": "3rd place match.",
+      "line": 2.5,
+      "settled_at": "2026-07-18T23:00:00+00:00",
+      "outcome": "LOSS",
+      "pnl": -6.0,
+      "result": "France 4-6 England"
+    },
+    {
+      "id": 32,
+      "description": "Spain dnb vs Argentina",
+      "bet_type": "dnb",
+      "selection": "Spain",
+      "odds": 1.9,
+      "stake": 6.0,
+      "kickoff": "2026-07-19T19:00Z",
+      "espn_game_id": "760517",
+      "home": "Spain",
+      "away": "Argentina",
+      "tier": "B",
+      "estimated_prob": 0.52,
+      "settled_at": "2026-07-19T21:30:00+00:00",
+      "outcome": "WIN",
+      "pnl": 5.4,
+      "result": "Spain 1-0 Argentina (AET)"
+    }
   ]
 }
